@@ -83,6 +83,7 @@ For our example we consider the example defined in configuration as follows:
 ```json
   "Thunder": {
     "Permission": "nbmacro.amazing_welcome",
+    "NeedToBeSaved": false,
     "Macro": [
       "PM {PLAYER} &eThunder is with you",
       "CMD !effect {PLAYER} minecraft:resistance 30 2",
@@ -101,7 +102,9 @@ For our example we consider the example defined in configuration as follows:
   }
 ```
 Here, **"PM {PLAYER} &eThunder is with you"** have the **0** ID, **"CMD !summon minecraft:lightning_bolt {X_LOOK} {Y_LOOK} {Z_LOOK}"** have the **8** ID.
-Each time you jump to next command, the counter increase, so while the counter is less than {COUNT_TIMIT} the goto will be apply, else, state will skip to the next instruction.
+Each time you jump to next command, the counter increase, so while the counter is less than {COUNT_TIMIT} the goto will be apply, else, state will skip to the next instruction.<br>
+  
+**NeedToBeSaved** is a boolean that said, if at the server stopping, macros need to be saving (usefull if you have duration system with WAIT) or can be executed, ignoring time until finish them, before their deletion. <br>
   
 In your example, **"GOTO 8 16"**, the instruction with **8** ID will be executed 4 times, the initial time, then 3 other times.
   
