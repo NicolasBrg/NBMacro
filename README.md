@@ -43,7 +43,7 @@ A macro requires to have the permission filled in configuration, with a list of 
 Send a private message to the targeted player.<br>
 
 **For example:**<br>
-  ``PM {PLAYER} &2Welcome &6{PLAYER}&2 do you a welcome message? \_&2Click\_ #Welcooooome !#`` Send the message "Welcome {PLAYER} do you a welcome message?" with color to the targeted player, with a green text hover "Click", and the execution of the command between "#" symbols. If it's a command, that will be executed, if it's a text, the message will be sent on click, here, if the player click, the message "Welcooooome !" will be sent on global chat.
+  ``PM {PLAYER} &2Welcome &6{PLAYER}&2 do you a welcome message? _&2Click_ #Welcooooome !#`` Send the message "Welcome {PLAYER} do you a welcome message?" with color to the targeted player, with a green text hover "Click", and the execution of the command between "#" symbols. If it's a command, that will be executed, if it's a text, the message will be sent on click, here, if the player click, the message "Welcooooome !" will be sent on global chat.
   
 #### BROAD \<Message with space and color alias "&"\> \_Hover text showed\_ #Command on click#
 Send a broadcast message to every connected player.
