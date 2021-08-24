@@ -1,4 +1,4 @@
-# NBMacro Pure Forge 1.12.2 - Version 1.0
+# NBMacro Pure Forge 1.12.2 - Version 1.8.2021_Release
 A very easy to use mod to create macros, command sets and automatic behaviors on your servers. 
 
 # Demo Video
@@ -16,6 +16,9 @@ You can define as many arguments as you want, these have aliases available in th
   
 This command starts the execution of the macro chosen for the targeted player, if player is left empty, the player executing the command will have the execution of the macro.
   
+### /nbmacro_network {Server Name}
+Load, update, or get information about your licence. (Only in the first setup)
+
 ### /nbmacro_admin \<Info | List | Stop\>
 #### Info
 Say how many macro are running at the time you sent the command
